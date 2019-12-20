@@ -192,6 +192,28 @@ Remember you can copy your public key to machines conveniently with `ssh-copy-id
 
 You can now copy the public key to gitlab, github and so on.
 
+# Python3
+
+Per default python and python3 are installed. Keep in mind that the python packages are stored in different places for different versions, users or globally. I would recommend using a venv whenever possible. PyCharm helps with that a lot. virtualenvwrapper is the corresponding tooling for the shell.
+
+# Node and NVM
+
+I strongly recommend using NVM as version managment for node.js on linux. It is super convenient.
+
+https://github.com/nvm-sh/nvm
+
+You might need to add the script to .zshrc manually
+
+```
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+```
+
+Install latest node.js version
+
+`nvm install node # "node" is an alias for the latest version`
+
 
 
 # Keepass2
