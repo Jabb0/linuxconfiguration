@@ -1,6 +1,6 @@
 # The ultimative guide of how not to be a pleb
 
-
+### This Guide needs some love and updates
 
 # OS:
 
