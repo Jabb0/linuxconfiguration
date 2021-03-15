@@ -415,3 +415,24 @@ du -h --max-depth=1 | sort -h
 ## Command line hexeditor
 `apt install hexedit`
 `hexedit file`
+
+## Re-run previous command with sudo
+`sudo !!`
+
+## Cutting and pasting text in the command line
+`ctrl-k` cut to end of line
+`ctrl-u` cut all of the line
+`ctrl-w` cut to beginning of line
+`ctrl-y` paste what you just cut
+
+## Better tailing of log files
+`less +F`
+
+## Edit your current shell input
+`ctrl-e` this uses the current editor set via $EDITOR
+
+## Paste argument of previous command
+`alt-.` use multiple times to search last commands
+
+## Reset the terminal if messed up
+`reset`
